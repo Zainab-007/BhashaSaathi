@@ -1,0 +1,5 @@
+# Install these after activating apps/api/.venv on the Lenovo LOQ RTX 2050 demo laptop.
+# Use the official CUDA 12.8 wheel index.
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+torchaudio==2.8.0+cu128

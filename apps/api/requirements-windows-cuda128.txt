@@ -1,0 +1,6 @@
+# Use the existing requirements.txt for the Python packages, then install the
+# verified CUDA wheels below from the official PyTorch index.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+torchaudio==2.8.0+cu128
