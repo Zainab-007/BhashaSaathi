@@ -1,59 +1,53 @@
-# BhashaSaathi
+# 🌱 BhashaSaathi
 
-### AI-Powered Vernacular Learning and Translation Platform
+### AI-Powered Vernacular Pedagogy & Real-Time Translation for Mother-Tongue Education
 
-BhashaSaathi is a multilingual educational platform designed to help teachers
-create and publish learning content across Indian languages.
+**Smart India Hackathon 2026 · SIH26042 · Smart Education**
 
-The system combines translation, speech technologies, teacher verification,
-practice generation, and live translation into a single workflow.
+BhashaSaathi is an AI-assisted multilingual education platform designed to bridge the communication gap between teachers and students in mother-tongue-based primary education. It combines context-aware educational translation, speech technologies, teacher verification, multilingual content creation, and offline-aware learning into a single platform.
 
-## Supported Languages
+---
 
-- English
-- Hindi
-- Marathi
+## 📌 Smart India Hackathon 2026 - SIH26042
 
-## Core Features
+## 🧩 Problem
 
-- Multilingual lesson translation
-- Teacher review and approval
-- Speech-to-text input
-- Text-to-speech audio generation
-- Live translation
-- Practice and worksheet generation
-- Student and teacher workflows
-- Offline-aware web application
+Mother-tongue-based education can make learning more accessible and effective for primary school students. However, teachers may not always be proficient in the local or tribal languages spoken by their students.
 
-## Tech Stack
+This creates a communication gap between:
 
-### Frontend
-- React
-- TypeScript
-- Vite
+**Teacher → Curriculum → Student**
 
-### Backend
-- Python
-- FastAPI
-- SQLAlchemy
-- Alembic
+The SIH26042 problem focuses on using AI to support mother-tongue-based primary education through:
 
-### AI / ML
-- IndicTrans2
-- Whisper
-- Parler-TTS
+- Context-aware curriculum translation
+- Vernacular educational content
+- Synthesized educational audio
+- Real-time voice-to-voice translation
+- Bilingual learning resources
+- Offline support for low-connectivity environments
 
-### Database
-- SQLite / local storage
+The problem specifically highlights languages such as **Ho, Mundari, and Santhali**, where digital language resources are comparatively limited.
 
-## Project Structure
+# 💡 Our Solution
+
+**BhashaSaathi** brings translation, speech, educational content, and teacher verification together into one workflow.
+
+Instead of treating translation as simple word-to-word conversion, the platform focuses on preserving the meaning and purpose of educational material.
 
 ```text
-apps/
-├── api/       # FastAPI backend
-└── web/       # React frontend
-
-scripts/       # Development and verification utilities
-core/          # Shared project logic
-data/          # Project data
-storage/       # Local storage
+Teacher / Educational Content
+            ↓
+     Language Processing
+            ↓
+    Context-Aware Translation
+            ↓
+      Teacher Verification
+            ↓
+       ┌────┴────┐
+       ↓         ↓
+      Text      Audio
+       ↓         ↓
+ Worksheets   Voice Learning
+       ↓         ↓
+          Students
